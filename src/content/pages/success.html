@@ -1,0 +1,28 @@
+---
+title: 'Užklausa išsiųsta!'
+preloadImg: '/assets/images/profile.png'
+permalink: '/uzklausa-issiusta'
+eleventyNavigation:
+    key: Užklausa išsiųsta
+    order: 1000
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <!-- Any page-specific tags that belong in the <head>, such as a page-specific stylesheet -->
+        <link rel="stylesheet" href="/assets/css/local.css" />
+        <link rel="stylesheet" href="/assets/css/critical.css" />
+{% endblock %}
+
+{% block body %}
+    <div id="success">
+        <div class="popup-container">
+            <h1>Ačiū!</h1>
+            <span>Jūsų užklausą buvo išsiųsta. Netrukus su jumis susisieksiu.</span>
+            <a class="cs-button-solid" href="/" class="back-button">Sugrįžti</a>
+        </div>
+    </div>
+{% endblock %}
+
+
