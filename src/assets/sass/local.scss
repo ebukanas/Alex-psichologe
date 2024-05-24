@@ -45,6 +45,21 @@
                 flex-direction: column;
                 justify-content: center;
 
+                // .name {
+                //     position: relative;
+                //     .dot {
+                //         width: 6px;
+                //         height: 6px;
+                //         position: absolute;
+                //         background-color: white;
+                //         top:0;
+                //         right: 0;
+                //         margin-right: 117px;
+                //         margin-top: 53px;
+                //         border-radius: 2em;
+                //     }
+                // }
+
                 h1 {
                     padding-bottom: 0.5em;
                     font-size: 1.8em;
@@ -53,7 +68,6 @@
                     line-height: 1;
                     color: white;
                     font-family: "Belgan";
-
                 }
             
                 p {
@@ -71,6 +85,15 @@
 
                     #price {
                         font-family: "Open Sans Condensed";
+                    }
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
                     }
                 }
             }
@@ -170,6 +193,7 @@
 
                     h3 {
                         padding-top: 3em;
+                        font-size: 1.3em;
                     }
             }
             
@@ -297,6 +321,11 @@
                     height: 250px;
                     border-top-left-radius: 500px;
                     border-top-right-radius: 500px;
+
+                    h3 {
+                        font-size: 1.6em;
+
+                    }
                 }
                 
                 .container-bottom {

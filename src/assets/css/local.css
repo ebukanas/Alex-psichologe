@@ -63,6 +63,13 @@
   #hero .cs-container .left-section span #price {
     font-family: "Open Sans Condensed";
   }
+  #hero .cs-container .left-section a {
+    color: white;
+    text-decoration: none;
+  }
+  #hero .cs-container .left-section a:hover {
+    text-decoration: underline;
+  }
   #hero .cs-container .right-section {
     width: 50%;
     display: flex;
@@ -144,6 +151,7 @@
   }
   #contact-1388 .cs-form .container-top h3 {
     padding-top: 3em;
+    font-size: 1.3em;
   }
   #contact-1388 .cs-form .container-bottom {
     padding-right: 2em;
@@ -253,6 +261,9 @@
     height: 250px;
     border-top-left-radius: 500px;
     border-top-right-radius: 500px;
+  }
+  #contact-1388 .cs-container .cs-form .container-top h3 {
+    font-size: 1.6em;
   }
   #contact-1388 .cs-container .cs-form .container-bottom {
     padding-right: 2em;
