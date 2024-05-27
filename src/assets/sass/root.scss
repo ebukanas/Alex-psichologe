@@ -185,6 +185,16 @@
         url("/assets/fonts/MADE-Mirage-Medium.otf") format("truetype");
 }
 
+/* NT Fabulous - medium */
+@font-face {
+    font-style: normal;
+    font-family: "NT Fabulous";
+    font-weight: 400;
+    font-display: swap;
+    src: local(""),
+        url("/assets/fonts/NT-Fabulous.otf") format("truetype");
+}
+
 /* Open Sans condensed - light */
 @font-face {
     font-style: normal;
