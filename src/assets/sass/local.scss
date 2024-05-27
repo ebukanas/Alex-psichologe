@@ -424,5 +424,17 @@
                 }
             }
     }
+
+    .cs-submit {
+        min-width: calc(200 / 16 * 1rem);
+        border: none;
+        font-weight: 700;
+        font-family: "Open Sans Condensed";
+
+        &:hover {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
 }
 }

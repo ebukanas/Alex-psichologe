@@ -347,6 +347,16 @@
   #success .cs-button-solid:hover:before {
     width: 100%;
   }
+  #success .cs-submit {
+    min-width: 12.5rem;
+    border: none;
+    font-weight: 700;
+    font-family: "Open Sans Condensed";
+  }
+  #success .cs-submit:hover {
+    color: #fff;
+    cursor: pointer;
+  }
 }
 
 /*# sourceMappingURL=local.css.map */
