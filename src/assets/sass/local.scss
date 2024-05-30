@@ -48,11 +48,9 @@
                 h1 {
                     padding-bottom: 0.5em;
                     font-size: 1.8em;
-                    display: flex;
-                    flex-wrap: wrap;
                     line-height: 1;
                     color: white;
-                    font-family: "NT Fabulous";
+                    font-family: "Glamour", sans-serif;
                 }
             
                 p {
@@ -100,19 +98,60 @@
 
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
+
     #hero {
+        height: 80dvh;
+        padding: 0em 4em;
         .cs-container {
             .left-section {
-                max-width: 300px;
+                max-width: 450px;
                 h1 {
-                    font-size: 3em;
+                    font-size: 4em;
+                }
+
+                p, a, span {
+                    font-size: 1.5rem;
                 }
             }
             .right-section {
-                max-width: 300px;
+                max-width: 450px;
+                align-items: center;
+
+                img {
+                    max-width: unset;
+                }
             }
         }
     }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 75rem) {
+
+    #hero {
+        height: 80dvh;
+        .cs-container {
+            .left-section {
+                max-width: 450px;
+                h1 {
+                    font-size: 5em;
+                }
+
+                p, a, span {
+                    font-size: 1.7rem;
+                }
+            }
+            .right-section {
+                max-width: 450px;
+                align-items: center;
+
+                img {
+                    max-width: unset;
+                }
+            }
+        }
+    }
+
 }
 
 /*-- -------------------------- -->

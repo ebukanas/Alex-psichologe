@@ -175,6 +175,16 @@
         url("/assets/fonts/OpenSans_Condensed-Regular.ttf") format("truetype");
 }
 
+/* Glamour - regular */
+@font-face {
+    font-style: normal;
+    font-family: "Glamour";
+    font-weight: 400;
+    font-display: swap;
+    src: local(""),
+        url("/assets/fonts/Glamour.otf") format("truetype");
+}
+
 /* Made Mirage - medium */
 @font-face {
     font-style: normal;

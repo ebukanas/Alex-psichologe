@@ -43,11 +43,9 @@
   #hero .cs-container .left-section h1 {
     padding-bottom: 0.5em;
     font-size: 1.8em;
-    display: flex;
-    flex-wrap: wrap;
     line-height: 1;
     color: white;
-    font-family: "NT Fabulous";
+    font-family: "Glamour", sans-serif;
   }
   #hero .cs-container .left-section p {
     color: white;
@@ -83,14 +81,47 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
+  #hero {
+    height: 80dvh;
+    padding: 0em 4em;
+  }
   #hero .cs-container .left-section {
-    max-width: 300px;
+    max-width: 450px;
   }
   #hero .cs-container .left-section h1 {
-    font-size: 3em;
+    font-size: 4em;
+  }
+  #hero .cs-container .left-section p, #hero .cs-container .left-section a, #hero .cs-container .left-section span {
+    font-size: 1.5rem;
   }
   #hero .cs-container .right-section {
-    max-width: 300px;
+    max-width: 450px;
+    align-items: center;
+  }
+  #hero .cs-container .right-section img {
+    max-width: unset;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 75rem) {
+  #hero {
+    height: 80dvh;
+  }
+  #hero .cs-container .left-section {
+    max-width: 450px;
+  }
+  #hero .cs-container .left-section h1 {
+    font-size: 5em;
+  }
+  #hero .cs-container .left-section p, #hero .cs-container .left-section a, #hero .cs-container .left-section span {
+    font-size: 1.7rem;
+  }
+  #hero .cs-container .right-section {
+    max-width: 450px;
+    align-items: center;
+  }
+  #hero .cs-container .right-section img {
+    max-width: unset;
   }
 }
 /*-- -------------------------- -->
