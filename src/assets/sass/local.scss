@@ -214,6 +214,17 @@
                 justify-content: center;
                 align-items: center;
                 background-color: var(--secondary);
+                position: relative;
+
+                &:after {
+                    width: 340px;
+                    height: 10px;
+                    background-color: var(--secondary);
+                    content: "";
+                    bottom: 0;
+                    position: absolute;
+                    bottom: -0px;
+                    }
 
                     h3 {
                         padding-top: 3em;
@@ -345,6 +356,17 @@
                     height: 250px;
                     border-top-left-radius: 500px;
                     border-top-right-radius: 500px;
+                    position: relative;
+
+                    &:after {
+                        width: 500px;
+                        height: 10px;
+                        background-color: var(--secondary);
+                        content: "";
+                        bottom: 0;
+                        position: absolute;
+                        bottom: -0px;
+                        }
 
                     h3 {
                         font-size: 1.6em;
