@@ -179,16 +179,6 @@
     justify-content: center;
     align-items: center;
     background-color: var(--secondary);
-    position: relative;
-  }
-  #contact-1388 .cs-form .container-top:after {
-    width: 340px;
-    height: 10px;
-    background-color: var(--secondary);
-    content: "";
-    bottom: 0;
-    position: absolute;
-    bottom: 0px;
   }
   #contact-1388 .cs-form .container-top h3 {
     padding-top: 3em;
@@ -302,16 +292,6 @@
     height: 250px;
     border-top-left-radius: 500px;
     border-top-right-radius: 500px;
-    position: relative;
-  }
-  #contact-1388 .cs-container .cs-form .container-top:after {
-    width: 500px;
-    height: 10px;
-    background-color: var(--secondary);
-    content: "";
-    bottom: 0;
-    position: absolute;
-    bottom: 0px;
   }
   #contact-1388 .cs-container .cs-form .container-top h3 {
     font-size: 1.6em;
